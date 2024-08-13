@@ -85,8 +85,6 @@ KeywordLogger log = new KeywordLogger()
 
 log.logInfo(orderNum)
 
-print(orderNum)
-
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
