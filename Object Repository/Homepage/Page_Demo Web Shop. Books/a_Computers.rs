@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Computers</name>
+   <tag></tag>
+   <elementGuidId>7d2e0308-371f-4b4e-9866-3d6b9576780b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Computers')])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.inactive > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b7d68e84-f0c8-423c-be30-793451903851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/computers</value>
+      <webElementGuid>a189b4ca-84b4-4fc6-b6e1-6386f91c01a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Computers
+        </value>
+      <webElementGuid>6bec5612-fcb7-434d-9f1c-8423bf5a4d8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;side-2&quot;]/div[@class=&quot;block block-category-navigation&quot;]/div[@class=&quot;listbox&quot;]/ul[@class=&quot;list&quot;]/li[@class=&quot;inactive&quot;]/a[1]</value>
+      <webElementGuid>b6816997-4de1-45bb-bee8-e379c75a1cd7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Computers')])[3]</value>
+      <webElementGuid>139720d3-04cf-4d9c-b592-d47c3cb3cfa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Books'])[3]/following::a[1]</value>
+      <webElementGuid>a496f255-7344-468a-847e-18237f78a936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[2]/following::a[2]</value>
+      <webElementGuid>f6f55cc3-867c-4b02-9e04-f8422f83d004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Electronics'])[3]/preceding::a[1]</value>
+      <webElementGuid>7147bb01-6798-4fab-8e3e-dcdd5f225514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apparel &amp; Shoes'])[3]/preceding::a[2]</value>
+      <webElementGuid>fc886549-c92a-4152-98e9-02ebd020552d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/computers')])[3]</value>
+      <webElementGuid>54204d88-b472-4bd4-b07a-88f9e47b475a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[4]/div/div/div[2]/ul/li[2]/a</value>
+      <webElementGuid>7f75439b-eec0-4d63-abe3-fdceda5e7267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/computers' and (text() = 'Computers
+        ' or . = 'Computers
+        ')]</value>
+      <webElementGuid>714eaa2b-57db-4f42-a4a5-bd3855c048d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

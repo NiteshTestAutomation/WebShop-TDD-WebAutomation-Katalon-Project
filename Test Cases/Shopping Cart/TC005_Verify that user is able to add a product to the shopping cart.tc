@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_Verify that user is able to add a product to the shopping cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>176a6ca4-7ef6-4f82-9711-244b2ad8ae92</testCaseGuid>
+</TestCaseEntity>

@@ -23,21 +23,29 @@ WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Homepage/Page_Demo Web Shop/div_Categories'), 0)
+WebUI.click(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop/a_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop/a_Books'),'Books')
+WebUI.setText(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email'), 'niteshtestautomation@abc.com')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Books/a_Computers'),'Computers')
+WebUI.setEncryptedText(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Password_Password'), 
+    'M2QPTmdpEDqAc7bqT3oqOA==')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Computers/a_Electronics'),'Electronics')
+WebUI.click(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Electronics/a_Apparel  Shoes'),'Apparel & Shoes')
+WebUI.click(findTestObject('Shopping Cart/Page_Demo Web Shop/a_Computers'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Apparel  Shoes/a_Digital downloads'),'Digital downloads')
+WebUI.click(findTestObject('Shopping Cart/Cart/Page_Demo Web Shop. Computers/div_Desktops'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Digital downloads/a_Jewelry'),'Jewelry')
+WebUI.scrollToPosition(0, 300)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Jewelry/a_Gift Cards'),'Gift Cards')
+WebUI.click(findTestObject('Shopping Cart/Product/AddToCart_btn'))
+
+WebUI.scrollToPosition(0, 300)
+
+WebUI.click(findTestObject('Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/input_Qty_add-to-cart-button-72'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart'), 
+    0)
 
 WebUI.takeScreenshot()
 

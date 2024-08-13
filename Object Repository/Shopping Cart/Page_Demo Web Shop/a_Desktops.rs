@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Desktops</name>
+   <tag></tag>
+   <elementGuidId>faab76f3-4ddb-466b-8976-d9904f3fadf8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Desktops')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.sublist.firstLevel.active > li > a.hover</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>421f8663-6236-483b-a11a-c17295994984</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/desktops</value>
+      <webElementGuid>9739aceb-3d69-4caa-8099-f1fb71f49e05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hover</value>
+      <webElementGuid>57aeed61-1934-4ec8-8537-b63e5117846a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Desktops
+        </value>
+      <webElementGuid>68881120-46ee-4ecc-8adf-c515f16137bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header-menu&quot;]/ul[@class=&quot;top-menu&quot;]/li[2]/ul[@class=&quot;sublist firstLevel active&quot;]/li[1]/a[@class=&quot;hover&quot;]</value>
+      <webElementGuid>e32e08e6-7921-4ab4-b4e2-c1cd3ea0d730</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Desktops')]</value>
+      <webElementGuid>7a3d5d2a-01aa-4ec2-8503-005fb3045e4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Computers'])[1]/following::a[1]</value>
+      <webElementGuid>51565385-4ac3-4d91-a580-e88467e97ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Books'])[1]/following::a[2]</value>
+      <webElementGuid>30581329-35f3-476d-9dc8-a1dd7a16d7ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notebooks'])[1]/preceding::a[1]</value>
+      <webElementGuid>ed4bd9f8-1eca-42e2-8c23-cb6638f86d2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accessories'])[1]/preceding::a[2]</value>
+      <webElementGuid>61cc9848-8ad5-4e62-bbe7-1c3e25e1e766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Desktops']/parent::*</value>
+      <webElementGuid>8f4e6212-1ab7-44f6-8930-7cb3aebe1307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/desktops')]</value>
+      <webElementGuid>8851571a-0868-4a2f-bc2a-e9c0c7f57797</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li/a</value>
+      <webElementGuid>a76dda5a-cc39-40f3-a75a-30acce8e208f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/desktops' and (text() = 'Desktops
+        ' or . = 'Desktops
+        ')]</value>
+      <webElementGuid>be7e1e90-29f1-4391-a2a2-6a8f478ba886</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

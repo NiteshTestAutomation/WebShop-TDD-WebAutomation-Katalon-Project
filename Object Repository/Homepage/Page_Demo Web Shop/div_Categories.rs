@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Categories</name>
+   <tag></tag>
+   <elementGuidId>61deb5f2-0624-44ba-8153-79728fd0726a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d74dc4c6-da07-4873-a009-4031306eb4f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>9bf73885-3134-45cd-a78c-d876ecd26e3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Categories
+        </value>
+      <webElementGuid>51722d28-6bc0-452c-a462-8fbf1ce55e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;leftside-3&quot;]/div[@class=&quot;block block-category-navigation&quot;]/div[@class=&quot;title&quot;]</value>
+      <webElementGuid>a482bc43-6b1a-447e-b613-237a9c5e74d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[7]</value>
+      <webElementGuid>48c43c70-e039-4dbc-b7c5-f7c8bf3d4a84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[2]/following::div[8]</value>
+      <webElementGuid>40385da0-10b4-4442-ace0-5625a8a776fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Books'])[3]/preceding::div[1]</value>
+      <webElementGuid>8fb845d0-6c25-497c-bcdd-fafee5d50211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[4]/div/div/div</value>
+      <webElementGuid>a4c2898d-3201-47c2-837c-5c0ddd15a9d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+            Categories
+        ' or . = '
+            Categories
+        ')]</value>
+      <webElementGuid>5befe84a-c1fa-4593-9220-5a2cc40bd08b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
