@@ -19,12 +19,11 @@ import groovy.swing.factory.TextArgWidgetFactory as TextArgWidgetFactory
 import internal.GlobalVariable as GlobalVariable
 import org.eclipse.persistence.jpa.jpql.Assert as Assert
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger
-import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -37,9 +36,8 @@ String text = WebUI.getText(findTestObject('Search/Page_Demo Web Shop. Search/a_
 
 KeywordLogger log = new KeywordLogger()
 
-
 if (text.contains('Camera')) {
-	log.logInfo('Showing all Camera resultset ')
+    log.logInfo('Showing all Camera resultset ')
 }
 
 WebUI.takeScreenshot()

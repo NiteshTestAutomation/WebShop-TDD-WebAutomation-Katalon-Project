@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demowebshop.tricentis.com/'</initValue>
+      <name>appURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'niteshtestautomation@abc.com'</initValue>
+      <name>userID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'M2QPTmdpEDqAc7bqT3oqOA=='</initValue>
+      <name>passWord</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

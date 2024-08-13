@@ -16,18 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Demo Web Shop/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Demo Web Shop. Login/input_Email_Email'), 'niteshtestautomation@abc.com')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Demo Web Shop. Login/input_Email_Email'), GlobalVariable.userID)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Demo Web Shop. Login/input_Password_Password'), 'M2QPTmdpEDqAc7bqT3oqOA==')
 

@@ -16,12 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger
-
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
@@ -34,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/Registration/Page_Demo Web Shop.
 
 myEmailAddress = (('thisismyaddress' + System.nanoTime()) + '@test.com')
 
-passWord = "nitesh123"
+passWord = 'nitesh123'
 
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/input_Last name_LastName'), 'TestAutomation')
 
@@ -52,19 +51,20 @@ WebUI.doubleClick(findTestObject('Object Repository/Registration/Page_Demo Web S
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message'),2)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message'), 
+    2)
 
 confirmation = WebUI.getText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message'))
 
 KeywordLogger log = new KeywordLogger()
 
 log.logInfo(confirmation)
-log.logInfo('LoginId: '+myEmailAddress)
-log.logInfo('Password: '+passWord)
 
+log.logInfo('LoginId: ' + myEmailAddress)
+
+log.logInfo('Password: ' + passWord)
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
-
 

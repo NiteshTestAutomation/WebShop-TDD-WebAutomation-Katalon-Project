@@ -16,17 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+WebUI.navigateToUrl(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email'), 'niteshtestautomation@abc.com')
+WebUI.setText(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email'), GlobalVariable.userID)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Password_Password'), 
     'M2QPTmdpEDqAc7bqT3oqOA==')
@@ -45,14 +45,15 @@ WebUI.scrollToPosition(0, 300)
 
 WebUI.click(findTestObject('Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/input_Qty_add-to-cart-button-72'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart'), 
+    0)
 
 message = WebUI.getText(findTestObject('Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart'))
 
 KeywordLogger log = new KeywordLogger()
 
 log.logInfo(message)
-	
+
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

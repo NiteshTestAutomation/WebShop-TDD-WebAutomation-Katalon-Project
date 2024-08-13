@@ -1,0 +1,124 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo WebShop SmokeSuite Execution,Chrome 127.0.0.0,,,13-08-2024 18:34:23,13-08-2024 18:35:30,1m - 7.008s,PASSED
+,,,,,,,
+Test Cases/Registration/TC001_Verify that User is able to Register,Chrome 127.0.0.0,,,13-08-2024 18:34:24,13-08-2024 18:34:39,15.703s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 18:34:24,13-08-2024 18:34:26,1.720s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 127.0.0.0,,,13-08-2024 18:34:26,13-08-2024 18:34:29,3.135s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,13-08-2024 18:34:29,13-08-2024 18:34:29,0.107s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Demo Web Shop/a_Register""))",Chrome 127.0.0.0,,,13-08-2024 18:34:29,13-08-2024 18:34:30,1.094s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 127.0.0.0,,,13-08-2024 18:34:30,13-08-2024 18:34:30,0.339s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input_First name_FirstName""), ""Nitesh"")",Chrome 127.0.0.0,,,13-08-2024 18:34:30,13-08-2024 18:34:31,0.874s,PASSED
+"myEmailAddress = ""thisismyaddress"" + System.nanoTime() + ""@test.com""",Chrome 127.0.0.0,,,13-08-2024 18:34:31,13-08-2024 18:34:31,0.018s,PASSED
+"passWord = ""nitesh123""",Chrome 127.0.0.0,,,13-08-2024 18:34:31,13-08-2024 18:34:31,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input_Last name_LastName""), ""TestAutomation"")",Chrome 127.0.0.0,,,13-08-2024 18:34:31,13-08-2024 18:34:32,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input_Email_Email""), myEmailAddress)",Chrome 127.0.0.0,,,13-08-2024 18:34:32,13-08-2024 18:34:33,0.815s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input_Password_Password""), ""M2QPTmdpEDqAc7bqT3oqOA=="")",Chrome 127.0.0.0,,,13-08-2024 18:34:33,13-08-2024 18:34:33,0.541s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword""), ""M2QPTmdpEDqAc7bqT3oqOA=="")",Chrome 127.0.0.0,,,13-08-2024 18:34:33,13-08-2024 18:34:34,0.560s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/input__register-button""))",Chrome 127.0.0.0,,,13-08-2024 18:34:34,13-08-2024 18:34:36,1.798s,PASSED
+"doubleClick(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed""))",Chrome 127.0.0.0,,,13-08-2024 18:34:36,13-08-2024 18:34:36,0.494s,PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed""))",Chrome 127.0.0.0,,,13-08-2024 18:34:36,13-08-2024 18:34:36,0.327s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message""), 2)",Chrome 127.0.0.0,,,13-08-2024 18:34:36,13-08-2024 18:34:37,0.326s,PASSED
+"confirmation = getText(findTestObject(""Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message""))",Chrome 127.0.0.0,,,13-08-2024 18:34:37,13-08-2024 18:34:37,0.469s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 127.0.0.0,,,13-08-2024 18:34:37,13-08-2024 18:34:37,0.000s,PASSED
+log.logInfo(confirmation),Chrome 127.0.0.0,,,13-08-2024 18:34:37,13-08-2024 18:34:37,0.018s,PASSED
+"log.logInfo(""LoginId: "" + myEmailAddress)",Chrome 127.0.0.0,,,13-08-2024 18:34:37,13-08-2024 18:34:37,0.000s,PASSED
+"log.logInfo(""Password: "" + passWord)",Chrome 127.0.0.0,,,13-08-2024 18:34:37,13-08-2024 18:34:37,0.000s,PASSED
+takeScreenshot(),Chrome 127.0.0.0,,,13-08-2024 18:34:37,13-08-2024 18:34:38,0.696s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,13-08-2024 18:34:38,13-08-2024 18:34:39,1.328s,PASSED
+,,,,,,,
+Test Cases/Login/TC002_Verify user is successfully login to the application,Chrome 127.0.0.0,,,13-08-2024 18:34:39,13-08-2024 18:34:48,8.637s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 18:34:40,13-08-2024 18:34:40,0.691s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 127.0.0.0,,,13-08-2024 18:34:40,13-08-2024 18:34:43,2.713s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,13-08-2024 18:34:43,13-08-2024 18:34:43,0.074s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Demo Web Shop/a_Log in""))",Chrome 127.0.0.0,,,13-08-2024 18:34:43,13-08-2024 18:34:44,1.026s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Demo Web Shop. Login/input_Email_Email""), ""niteshtestautomation@abc.com"")",Chrome 127.0.0.0,,,13-08-2024 18:34:44,13-08-2024 18:34:45,0.679s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Demo Web Shop. Login/input_Password_Password""), ""M2QPTmdpEDqAc7bqT3oqOA=="")",Chrome 127.0.0.0,,,13-08-2024 18:34:45,13-08-2024 18:34:45,0.379s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button""))",Chrome 127.0.0.0,,,13-08-2024 18:34:45,13-08-2024 18:34:47,1.593s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Demo Web Shop/a_niteshtestautomationabc.com""), ""niteshtestautomation@abc.com"")",Chrome 127.0.0.0,,,13-08-2024 18:34:47,13-08-2024 18:34:47,0.460s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 127.0.0.0,,,13-08-2024 18:34:47,13-08-2024 18:34:47,0.001s,PASSED
+"log.logInfo(""Login Success"")",Chrome 127.0.0.0,,,13-08-2024 18:34:47,13-08-2024 18:34:47,0.002s,PASSED
+takeScreenshot(),Chrome 127.0.0.0,,,13-08-2024 18:34:47,13-08-2024 18:34:48,0.392s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,13-08-2024 18:34:48,13-08-2024 18:34:48,0.238s,PASSED
+,,,,,,,
+Test Cases/Search/TC003_Verify that on searching valid keyword for product it should show all realted products,Chrome 127.0.0.0,,,13-08-2024 18:34:48,13-08-2024 18:34:54,5.933s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 18:34:48,13-08-2024 18:34:49,0.632s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 127.0.0.0,,,13-08-2024 18:34:49,13-08-2024 18:34:51,2.317s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,13-08-2024 18:34:51,13-08-2024 18:34:51,0.101s,PASSED
+"setText(findTestObject(""Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping cart_q""), ""Camera"")",Chrome 127.0.0.0,,,13-08-2024 18:34:51,13-08-2024 18:34:52,0.691s,PASSED
+"click(findTestObject(""Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping ca_bc5dba""))",Chrome 127.0.0.0,,,13-08-2024 18:34:52,13-08-2024 18:34:53,1.161s,PASSED
+"text = getText(findTestObject(""Search/Page_Demo Web Shop. Search/a_Digital SLR Camera 12.2 Mpixel""))",Chrome 127.0.0.0,,,13-08-2024 18:34:53,13-08-2024 18:34:53,0.292s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 127.0.0.0,,,13-08-2024 18:34:53,13-08-2024 18:34:53,0.001s,PASSED
+"if (text.contains(""Camera""))",Chrome 127.0.0.0,,,13-08-2024 18:34:53,13-08-2024 18:34:53,0.017s,PASSED
+takeScreenshot(),Chrome 127.0.0.0,,,13-08-2024 18:34:53,13-08-2024 18:34:54,0.394s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,13-08-2024 18:34:54,13-08-2024 18:34:54,0.238s,PASSED
+,,,,,,,
+Test Cases/Homepage/TC004_Verify that all product categories are listed on Homepage,Chrome 127.0.0.0,,,13-08-2024 18:34:54,13-08-2024 18:35:00,6.295s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 18:34:54,13-08-2024 18:34:55,0.617s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 127.0.0.0,,,13-08-2024 18:34:55,13-08-2024 18:34:57,2.469s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,13-08-2024 18:34:57,13-08-2024 18:34:57,0.104s,PASSED
+"verifyElementPresent(findTestObject(""Homepage/Page_Demo Web Shop/div_Categories""), 0)",Chrome 127.0.0.0,,,13-08-2024 18:34:57,13-08-2024 18:34:57,0.348s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 127.0.0.0,,,13-08-2024 18:34:57,13-08-2024 18:34:57,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop/a_Books""), ""Books"")",Chrome 127.0.0.0,,,13-08-2024 18:34:57,13-08-2024 18:34:58,0.295s,PASSED
+"log.logInfo(""Books Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:34:58,13-08-2024 18:34:58,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop. Books/a_Computers""), ""Computers"")",Chrome 127.0.0.0,,,13-08-2024 18:34:58,13-08-2024 18:34:58,0.322s,PASSED
+"log.logInfo(""Computers Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:34:58,13-08-2024 18:34:58,0.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop. Computers/a_Electronics""), ""Electronics"")",Chrome 127.0.0.0,,,13-08-2024 18:34:58,13-08-2024 18:34:58,0.280s,PASSED
+"log.logInfo(""Electronics Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:34:58,13-08-2024 18:34:58,0.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop. Electronics/a_Apparel  Shoes""), ""Apparel & Shoes"")",Chrome 127.0.0.0,,,13-08-2024 18:34:58,13-08-2024 18:34:59,0.287s,PASSED
+"log.logInfo(""Apparel & Shoes Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:34:59,13-08-2024 18:34:59,0.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop. Apparel  Shoes/a_Digital downloads""), ""Digital downloads"")",Chrome 127.0.0.0,,,13-08-2024 18:34:59,13-08-2024 18:34:59,0.282s,PASSED
+"log.logInfo(""Digital downloads Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:34:59,13-08-2024 18:34:59,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop. Digital downloads/a_Jewelry""), ""Jewelry"")",Chrome 127.0.0.0,,,13-08-2024 18:34:59,13-08-2024 18:34:59,0.312s,PASSED
+"log.logInfo(""Jewelry Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:34:59,13-08-2024 18:34:59,0.004s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Homepage/Page_Demo Web Shop. Jewelry/a_Gift Cards""), ""Gift Cards"")",Chrome 127.0.0.0,,,13-08-2024 18:34:59,13-08-2024 18:35:00,0.294s,PASSED
+"log.logInfo(""Gift Cards Product Category is present"")",Chrome 127.0.0.0,,,13-08-2024 18:35:00,13-08-2024 18:35:00,0.001s,PASSED
+takeScreenshot(),Chrome 127.0.0.0,,,13-08-2024 18:35:00,13-08-2024 18:35:00,0.380s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,13-08-2024 18:35:00,13-08-2024 18:35:00,0.235s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/TC005_Verify that user is able to add a product to the shopping cart,Chrome 127.0.0.0,,,13-08-2024 18:35:00,13-08-2024 18:35:13,12.575s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 18:35:00,13-08-2024 18:35:01,0.632s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 127.0.0.0,,,13-08-2024 18:35:01,13-08-2024 18:35:02,0.650s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,13-08-2024 18:35:02,13-08-2024 18:35:03,1.795s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Page_Demo Web Shop/a_Log in""))",Chrome 127.0.0.0,,,13-08-2024 18:35:03,13-08-2024 18:35:04,0.910s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email""), ""niteshtestautomation@abc.com"")",Chrome 127.0.0.0,,,13-08-2024 18:35:04,13-08-2024 18:35:05,0.687s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Password_Password""), ""M2QPTmdpEDqAc7bqT3oqOA=="")",Chrome 127.0.0.0,,,13-08-2024 18:35:05,13-08-2024 18:35:05,0.382s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button""))",Chrome 127.0.0.0,,,13-08-2024 18:35:05,13-08-2024 18:35:07,1.580s,PASSED
+"click(findTestObject(""Shopping Cart/Page_Demo Web Shop/a_Computers""))",Chrome 127.0.0.0,,,13-08-2024 18:35:07,13-08-2024 18:35:08,1.144s,PASSED
+"click(findTestObject(""Shopping Cart/Cart/Page_Demo Web Shop. Computers/div_Desktops""))",Chrome 127.0.0.0,,,13-08-2024 18:35:08,13-08-2024 18:35:09,0.962s,PASSED
+"scrollToPosition(0, 300)",Chrome 127.0.0.0,,,13-08-2024 18:35:09,13-08-2024 18:35:09,0.040s,PASSED
+"click(findTestObject(""Shopping Cart/Product/AddToCart_btn""))",Chrome 127.0.0.0,,,13-08-2024 18:35:09,13-08-2024 18:35:09,0.327s,PASSED
+"scrollToPosition(0, 300)",Chrome 127.0.0.0,,,13-08-2024 18:35:09,13-08-2024 18:35:09,0.015s,PASSED
+"click(findTestObject(""Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/input_Qty_add-to-cart-button-72""))",Chrome 127.0.0.0,,,13-08-2024 18:35:09,13-08-2024 18:35:11,1.667s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart""), 0)",Chrome 127.0.0.0,,,13-08-2024 18:35:11,13-08-2024 18:35:12,0.662s,PASSED
+"message = getText(findTestObject(""Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart""))",Chrome 127.0.0.0,,,13-08-2024 18:35:12,13-08-2024 18:35:12,0.307s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 127.0.0.0,,,13-08-2024 18:35:12,13-08-2024 18:35:12,0.000s,PASSED
+log.logInfo(message),Chrome 127.0.0.0,,,13-08-2024 18:35:12,13-08-2024 18:35:12,0.000s,PASSED
+takeScreenshot(),Chrome 127.0.0.0,,,13-08-2024 18:35:12,13-08-2024 18:35:12,0.433s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,13-08-2024 18:35:12,13-08-2024 18:35:13,0.254s,PASSED
+,,,,,,,
+Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart,Chrome 127.0.0.0,,,13-08-2024 18:35:13,13-08-2024 18:35:30,17.549s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 18:35:13,13-08-2024 18:35:14,0.671s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 127.0.0.0,,,13-08-2024 18:35:14,13-08-2024 18:35:16,2.593s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,13-08-2024 18:35:16,13-08-2024 18:35:16,0.087s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop/a_Log in""))",Chrome 127.0.0.0,,,13-08-2024 18:35:16,13-08-2024 18:35:17,0.974s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Login/input_Email_Email""), ""niteshtestautomation@abc.com"")",Chrome 127.0.0.0,,,13-08-2024 18:35:17,13-08-2024 18:35:18,0.708s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Login/input_Password_Password""), ""M2QPTmdpEDqAc7bqT3oqOA=="")",Chrome 127.0.0.0,,,13-08-2024 18:35:18,13-08-2024 18:35:18,0.392s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button""))",Chrome 127.0.0.0,,,13-08-2024 18:35:18,13-08-2024 18:35:20,1.589s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop/span_Shopping cart""))",Chrome 127.0.0.0,,,13-08-2024 18:35:20,13-08-2024 18:35:21,1.201s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_Remove_removefromcart""))",Chrome 127.0.0.0,,,13-08-2024 18:35:21,13-08-2024 18:35:22,0.348s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0""))",Chrome 127.0.0.0,,,13-08-2024 18:35:22,13-08-2024 18:35:22,0.319s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/button_Checkout""))",Chrome 127.0.0.0,,,13-08-2024 18:35:22,13-08-2024 18:35:23,1.508s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn""))",Chrome 127.0.0.0,,,13-08-2024 18:35:23,13-08-2024 18:35:24,0.345s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn""), 2)",Chrome 127.0.0.0,,,13-08-2024 18:35:24,13-08-2024 18:35:25,0.841s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Pickup/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore""))",Chrome 127.0.0.0,,,13-08-2024 18:35:25,13-08-2024 18:35:25,0.344s,PASSED
+"click(findTestObject(""Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button""))",Chrome 127.0.0.0,,,13-08-2024 18:35:25,13-08-2024 18:35:25,0.526s,PASSED
+"click(findTestObject(""Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button""))",Chrome 127.0.0.0,,,13-08-2024 18:35:25,13-08-2024 18:35:26,0.683s,PASSED
+"click(findTestObject(""Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button""))",Chrome 127.0.0.0,,,13-08-2024 18:35:26,13-08-2024 18:35:27,0.805s,PASSED
+"click(findTestObject(""Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button""))",Chrome 127.0.0.0,,,13-08-2024 18:35:27,13-08-2024 18:35:28,0.734s,PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Checkout/div_Your order has been successfully processed""))",Chrome 127.0.0.0,,,13-08-2024 18:35:28,13-08-2024 18:35:29,1.320s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Checkout/Page_Demo Web Shop. Checkout/strong_Your order has been successfully processed""), 0)",Chrome 127.0.0.0,,,13-08-2024 18:35:29,13-08-2024 18:35:29,0.304s,PASSED
+"orderNum = getText(findTestObject(""Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/OrderNumber_text""))",Chrome 127.0.0.0,,,13-08-2024 18:35:29,13-08-2024 18:35:30,0.299s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 127.0.0.0,,,13-08-2024 18:35:30,13-08-2024 18:35:30,0.004s,PASSED
+log.logInfo(orderNum),Chrome 127.0.0.0,,,13-08-2024 18:35:30,13-08-2024 18:35:30,0.020s,PASSED
+takeScreenshot(),Chrome 127.0.0.0,,,13-08-2024 18:35:30,13-08-2024 18:35:30,0.424s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,13-08-2024 18:35:30,13-08-2024 18:35:30,0.283s,PASSED

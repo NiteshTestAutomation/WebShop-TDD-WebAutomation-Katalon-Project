@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-13T15:32:52.469004300Z</date>
+  <millis>1723563172469</millis>
+  <nanos>4300</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Smoke Suite/Demo WebShop SmokeSuite Execution</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Demo WebShop SmokeSuite Execution</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Smoke Suite/Demo WebShop SmokeSuite Execution</property>
+</record>
+<record>
+  <date>2024-08-13T15:32:52.483916Z</date>
+  <millis>1723563172483</millis>
+  <nanos>916000</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = USER - DESKTOP-2PSCSJ2</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">USER - DESKTOP-2PSCSJ2</property>
+</record>
+<record>
+  <date>2024-08-13T15:32:52.483916Z</date>
+  <millis>1723563172483</millis>
+  <nanos>916000</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2024-08-13T15:32:52.484956500Z</date>
+  <millis>1723563172484</millis>
+  <nanos>956500</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.100.8</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.100.8</property>
+</record>
+<record>
+  <date>2024-08-13T15:32:52.484956500Z</date>
+  <millis>1723563172484</millis>
+  <nanos>956500</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 9.3.1.212</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">9.3.1.212</property>
+</record>
+<record>
+  <date>2024-08-13T15:32:52.623770600Z</date>
+  <millis>1723563172623</millis>
+  <nanos>770600</nanos>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Registration/TC001_Verify that User is able to Register</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Registration/TC001_Verify that User is able to Register</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Registration/TC001_Verify that User is able to Register</property>
+  <property name="source">C:\Users\USER\git\WebShop-TDD-WebAutomation-Katalon-Project\Test Cases\Registration\TC001_Verify that User is able to Register.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>

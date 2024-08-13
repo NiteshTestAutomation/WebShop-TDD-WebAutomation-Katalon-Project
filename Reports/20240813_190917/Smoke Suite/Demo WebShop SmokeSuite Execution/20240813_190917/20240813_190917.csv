@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo WebShop SmokeSuite Execution,Chrome 127.0.0.0,,,13-08-2024 19:09:24,13-08-2024 19:09:33,8.517s,FAILED
+,,,,,,,
+Test Cases/Registration/TC001_Verify that User is able to Register,Chrome 127.0.0.0,,,13-08-2024 19:09:25,13-08-2024 19:09:27,2.300s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:25,13-08-2024 19:09:25,0.048s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 19:09:25,13-08-2024 19:09:27,1.743s,PASSED
+navigateToUrl(appURL),Chrome 127.0.0.0,,,13-08-2024 19:09:27,13-08-2024 19:09:27,0.277s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:27,13-08-2024 19:09:27,0.007s,PASSED
+,,,,,,,
+Test Cases/Login/TC002_Verify user is successfully login to the application,Chrome 127.0.0.0,,,13-08-2024 19:09:27,13-08-2024 19:09:28,1.346s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:27,13-08-2024 19:09:27,0.010s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 19:09:27,13-08-2024 19:09:28,1.055s,PASSED
+navigateToUrl(appURL),Chrome 127.0.0.0,,,13-08-2024 19:09:28,13-08-2024 19:09:28,0.173s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:28,13-08-2024 19:09:28,0.004s,PASSED
+,,,,,,,
+Test Cases/Search/TC003_Verify that on searching valid keyword for product it should show all realted products,Chrome 127.0.0.0,,,13-08-2024 19:09:28,13-08-2024 19:09:30,1.351s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:28,13-08-2024 19:09:28,0.007s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 19:09:28,13-08-2024 19:09:29,0.979s,PASSED
+navigateToUrl(appURL),Chrome 127.0.0.0,,,13-08-2024 19:09:29,13-08-2024 19:09:30,0.194s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:30,13-08-2024 19:09:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Homepage/TC004_Verify that all product categories are listed on Homepage,Chrome 127.0.0.0,,,13-08-2024 19:09:30,13-08-2024 19:09:31,1.162s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:30,13-08-2024 19:09:30,0.002s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 19:09:30,13-08-2024 19:09:31,0.894s,PASSED
+navigateToUrl(appURL),Chrome 127.0.0.0,,,13-08-2024 19:09:31,13-08-2024 19:09:31,0.185s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:31,13-08-2024 19:09:31,0.002s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/TC005_Verify that user is able to add a product to the shopping cart,Chrome 127.0.0.0,,,13-08-2024 19:09:31,13-08-2024 19:09:32,1.168s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:31,13-08-2024 19:09:31,0.002s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 19:09:31,13-08-2024 19:09:32,0.927s,PASSED
+navigateToUrl(appURL),Chrome 127.0.0.0,,,13-08-2024 19:09:32,13-08-2024 19:09:32,0.155s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:32,13-08-2024 19:09:32,0.002s,PASSED
+,,,,,,,
+Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart,Chrome 127.0.0.0,,,13-08-2024 19:09:32,13-08-2024 19:09:33,0.964s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:32,13-08-2024 19:09:32,0.002s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,13-08-2024 19:09:32,13-08-2024 19:09:33,0.740s,PASSED
+navigateToUrl(appURL),Chrome 127.0.0.0,,,13-08-2024 19:09:33,13-08-2024 19:09:33,0.149s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 127.0.0.0,,,13-08-2024 19:09:33,13-08-2024 19:09:33,0.001s,PASSED
