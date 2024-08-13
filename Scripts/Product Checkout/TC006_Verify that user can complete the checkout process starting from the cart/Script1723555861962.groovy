@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.logging.KeywordLogger
+
+import com.kms.katalon.core.logging.KeywordLogger
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
@@ -76,6 +80,10 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Checkout/Page_Demo 
     0)
 
 orderNum = WebUI.getText(findTestObject('Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/OrderNumber_text'))
+
+KeywordLogger log = new KeywordLogger()
+
+log.logInfo(orderNum)
 
 print(orderNum)
 

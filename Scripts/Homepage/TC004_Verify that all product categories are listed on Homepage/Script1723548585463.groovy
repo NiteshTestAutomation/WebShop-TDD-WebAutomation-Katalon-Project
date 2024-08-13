@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.logging.KeywordLogger
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
@@ -25,19 +27,30 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('Homepage/Page_Demo Web Shop/div_Categories'), 0)
 
+
+KeywordLogger log = new KeywordLogger()
+
+
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop/a_Books'),'Books')
+log.logInfo('Books Product Category is present')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Books/a_Computers'),'Computers')
+log.logInfo('Computers Product Category is present')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Computers/a_Electronics'),'Electronics')
+log.logInfo('Electronics Product Category is present')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Electronics/a_Apparel  Shoes'),'Apparel & Shoes')
+log.logInfo('Apparel & Shoes Product Category is present')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Apparel  Shoes/a_Digital downloads'),'Digital downloads')
+log.logInfo('Digital downloads Product Category is present')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Digital downloads/a_Jewelry'),'Jewelry')
+log.logInfo('Jewelry Product Category is present')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage/Page_Demo Web Shop. Jewelry/a_Gift Cards'),'Gift Cards')
+log.logInfo('Gift Cards Product Category is present')
 
 WebUI.takeScreenshot()
 

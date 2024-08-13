@@ -19,6 +19,8 @@ import groovy.swing.factory.TextArgWidgetFactory as TextArgWidgetFactory
 import internal.GlobalVariable as GlobalVariable
 import org.eclipse.persistence.jpa.jpql.Assert as Assert
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.logging.KeywordLogger
 
 WebUI.openBrowser('')
 
@@ -33,11 +35,13 @@ WebUI.click(findTestObject('Object Repository/Search/Page_Demo Web Shop/input_Yo
 
 String text = WebUI.getText(findTestObject('Search/Page_Demo Web Shop. Search/a_Digital SLR Camera 12.2 Mpixel'))
 
-if (text.contains('Camera')) {
-    print('Showing all Camera resultset ')
+KeywordLogger log = new KeywordLogger()
 
-   
+
+if (text.contains('Camera')) {
+	log.logInfo('Showing all Camera resultset ')
 }
+
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

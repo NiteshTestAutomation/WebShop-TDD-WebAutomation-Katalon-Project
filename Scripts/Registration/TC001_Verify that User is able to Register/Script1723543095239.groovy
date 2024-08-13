@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.logging.KeywordLogger
+
 
 WebUI.openBrowser('')
 
@@ -30,9 +32,13 @@ WebUI.click(findTestObject('Object Repository/Registration/Page_Demo Web Shop. R
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/input_First name_FirstName'), 
     'Nitesh')
 
+myEmailAddress = (('thisismyaddress' + System.nanoTime()) + '@test.com')
+
+passWord = "nitesh123"
+
 WebUI.setText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/input_Last name_LastName'), 'TestAutomation')
 
-WebUI.setText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/input_Email_Email'), 'niteshtestautomation@abc.com')
+WebUI.setText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/input_Email_Email'), myEmailAddress)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/input_Password_Password'), 
     'M2QPTmdpEDqAc7bqT3oqOA==')
@@ -46,8 +52,19 @@ WebUI.doubleClick(findTestObject('Object Repository/Registration/Page_Demo Web S
 
 WebUI.click(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed'))
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/div_Register                            You_f07a9f'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message'),2)
 
-WebUI.click(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/div_Register                            You_f07a9f'))
+confirmation = WebUI.getText(findTestObject('Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message'))
+
+KeywordLogger log = new KeywordLogger()
+
+log.logInfo(confirmation)
+log.logInfo('LoginId: '+myEmailAddress)
+log.logInfo('Password: '+passWord)
+
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
+

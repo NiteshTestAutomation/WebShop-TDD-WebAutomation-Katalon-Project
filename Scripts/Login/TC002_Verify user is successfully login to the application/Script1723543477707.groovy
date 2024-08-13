@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.logging.KeywordLogger
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
@@ -32,6 +34,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Demo Web Sho
 WebUI.click(findTestObject('Object Repository/Login/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button'))
 
 WebUI.verifyElementText(findTestObject('Login/Page_Demo Web Shop/a_niteshtestautomationabc.com'), 'niteshtestautomation@abc.com')
+
+KeywordLogger log = new KeywordLogger()
+
+log.logInfo('Login Success')
 
 WebUI.takeScreenshot()
 
