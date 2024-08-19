@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo WebShop SmokeSuite Execution" time="67.412" tests="6" failures="0" errors="0">
+   <testsuite name="Demo WebShop SmokeSuite Execution" tests="6" failures="0" errors="0" time="67.412" skipped="0" timestamp="14-08-2024T08:30:45" hostname="USER - DESKTOP-2PSCSJ2" id="Test Suites/Smoke Suite/Demo WebShop SmokeSuite Execution">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613458604.png, C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613468758.png, C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613474809.png, C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613481312.png, C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613493739.png, C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613512388.png"/>
+         <property name="hostName" value="USER - DESKTOP-2PSCSJ2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="2d620cce8189d7f220ba2601af410029"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Registration/TC001_Verify that User is able to Register" time="14.378" classname="Test Cases/Registration/TC001_Verify that User is able to Register" status="PASSED">
+         <system-out><![CDATA[14-08-2024T08:30:45 - [TEST_CASE][PASSED] - Test Cases/Registration/TC001_Verify that User is able to Register: Test Cases/Registration/TC001_Verify that User is able to Register
+
+14-08-2024T08:30:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+14-08-2024T08:30:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:30:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+14-08-2024T08:30:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-08-2024T08:30:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-08-2024T08:30:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-08-2024T08:30:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-08-2024T08:30:47 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:30:49 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:30:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-08-2024T08:30:50 - [MESSAGE][PASSED] - Current window maximized
+
+14-08-2024T08:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_Demo Web Shop/a_Register")): Object: 'Object Repository/Registration/Page_Demo Web Shop/a_Register' is clicked on
+
+14-08-2024T08:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Demo Web Shop/a_Register' is clicked on
+
+14-08-2024T08:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input_Gender_Gender")): Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Gender_Gender' is clicked on
+
+14-08-2024T08:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Gender_Gender' is clicked on
+
+14-08-2024T08:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input_First name_FirstName"), "Nitesh"): Text 'Nitesh' is set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_First name_FirstName'
+
+14-08-2024T08:30:51 - [MESSAGE][PASSED] - Text 'Nitesh' is set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_First name_FirstName'
+
+14-08-2024T08:30:51 - [TEST_STEP][PASSED] - myEmailAddress = "thisismyaddress" + System.nanoTime() + "@test.com": null
+
+14-08-2024T08:30:51 - [TEST_STEP][PASSED] - passWord = "nitesh123": null
+
+14-08-2024T08:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input_Last name_LastName"), "TestAutomation"): Text 'TestAutomation' is set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Last name_LastName'
+
+14-08-2024T08:30:52 - [MESSAGE][PASSED] - Text 'TestAutomation' is set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Last name_LastName'
+
+14-08-2024T08:30:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input_Email_Email"), myEmailAddress): Text 'thisismyaddress62075114147500@test.com' is set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Email_Email'
+
+14-08-2024T08:30:53 - [MESSAGE][PASSED] - Text 'thisismyaddress62075114147500@test.com' is set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Email_Email'
+
+14-08-2024T08:30:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input_Password_Password"), "M2QPTmdpEDqAc7bqT3oqOA=="): Text ****** has been set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Password_Password'
+
+14-08-2024T08:30:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Password_Password'
+
+14-08-2024T08:30:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword"), "M2QPTmdpEDqAc7bqT3oqOA=="): Text ****** has been set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword'
+
+14-08-2024T08:30:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword'
+
+14-08-2024T08:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/input__register-button")): Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/input__register-button' is clicked on
+
+14-08-2024T08:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/input__register-button' is clicked on
+
+14-08-2024T08:30:56 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed")): Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed' is double clicked on
+
+14-08-2024T08:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed' is double clicked on
+
+14-08-2024T08:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed")): Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed' is clicked on
+
+14-08-2024T08:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Demo Web Shop. Register/div_Your registration completed' is clicked on
+
+14-08-2024T08:30:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message"), 2): Object 'Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message' is present
+
+14-08-2024T08:30:58 - [MESSAGE][PASSED] - Object 'Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message' is present
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - confirmation = getText(findTestObject("Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message")): Text of object 'Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message' is: 'Your registration completed'
+
+14-08-2024T08:30:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Registration/Page_Demo Web Shop. Register/registration_success_message' is: 'Your registration completed'
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - log.logInfo(confirmation): Your registration completed
+
+14-08-2024T08:30:58 - [MESSAGE][INFO] - Your registration completed
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - log.logInfo("LoginId: " + myEmailAddress): LoginId: thisismyaddress62075114147500@test.com
+
+14-08-2024T08:30:58 - [MESSAGE][INFO] - LoginId: thisismyaddress62075114147500@test.com
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - log.logInfo("Password: " + passWord): Password: nitesh123
+
+14-08-2024T08:30:58 - [MESSAGE][INFO] - Password: nitesh123
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-08-2024T08:30:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613458604.png]]
+
+14-08-2024T08:30:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-08-2024T08:30:59 - [MESSAGE][PASSED] - Browser is closed
+
+14-08-2024T08:30:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+14-08-2024T08:30:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:30:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC002_Verify user is successfully login to the application" time="9.146" classname="Test Cases/Login/TC002_Verify user is successfully login to the application" status="PASSED">
+         <system-out><![CDATA[14-08-2024T08:30:59 - [TEST_CASE][PASSED] - Test Cases/Login/TC002_Verify user is successfully login to the application: Test Cases/Login/TC002_Verify user is successfully login to the application
+
+14-08-2024T08:30:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+14-08-2024T08:30:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:30:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+14-08-2024T08:31:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-08-2024T08:31:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-08-2024T08:31:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-08-2024T08:31:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-08-2024T08:31:00 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:03 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-08-2024T08:31:03 - [MESSAGE][PASSED] - Current window maximized
+
+14-08-2024T08:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/Login/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-08-2024T08:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-08-2024T08:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Demo Web Shop. Login/input_Email_Email"), userID): Text 'niteshtestautomation@abc.com' is set on object 'Object Repository/Login/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-08-2024T08:31:05 - [MESSAGE][PASSED] - Text 'niteshtestautomation@abc.com' is set on object 'Object Repository/Login/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-08-2024T08:31:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Demo Web Shop. Login/input_Password_Password"), "M2QPTmdpEDqAc7bqT3oqOA=="): Text ****** has been set on object 'Object Repository/Login/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-08-2024T08:31:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-08-2024T08:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/Login/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-08-2024T08:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-08-2024T08:31:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Demo Web Shop/a_niteshtestautomationabc.com"), "niteshtestautomation@abc.com"): Actual text and expected text of test object 'Object Repository/Login/Page_Demo Web Shop/a_niteshtestautomationabc.com' are matched.
+
+14-08-2024T08:31:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Demo Web Shop/a_niteshtestautomationabc.com' are matched.
+
+14-08-2024T08:31:08 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+14-08-2024T08:31:08 - [TEST_STEP][PASSED] - log.logInfo("Login Success"): Login Success
+
+14-08-2024T08:31:08 - [MESSAGE][INFO] - Login Success
+
+14-08-2024T08:31:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-08-2024T08:31:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613468758.png]]
+
+14-08-2024T08:31:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-08-2024T08:31:09 - [MESSAGE][PASSED] - Browser is closed
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC003_Verify that on searching valid keyword for product it should show all realted products" time="6.118" classname="Test Cases/Search/TC003_Verify that on searching valid keyword for product it should show all realted products" status="PASSED">
+         <system-out><![CDATA[14-08-2024T08:31:09 - [TEST_CASE][PASSED] - Test Cases/Search/TC003_Verify that on searching valid keyword for product it should show all realted products: Test Cases/Search/TC003_Verify that on searching valid keyword for product it should show all realted products
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-08-2024T08:31:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-08-2024T08:31:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-08-2024T08:31:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-08-2024T08:31:09 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:12 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-08-2024T08:31:12 - [MESSAGE][PASSED] - Current window maximized
+
+14-08-2024T08:31:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping cart_q"), "Camera"): Text 'Camera' is set on object 'Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping cart_q'
+
+14-08-2024T08:31:13 - [MESSAGE][PASSED] - Text 'Camera' is set on object 'Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping cart_q'
+
+14-08-2024T08:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping ca_bc5dba")): Object: 'Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping ca_bc5dba' is clicked on
+
+14-08-2024T08:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Demo Web Shop/input_You have no items in your shopping ca_bc5dba' is clicked on
+
+14-08-2024T08:31:14 - [TEST_STEP][PASSED] - text = getText(findTestObject("Search/Page_Demo Web Shop. Search/a_Digital SLR Camera 12.2 Mpixel")): Text of object 'Object Repository/Search/Page_Demo Web Shop. Search/a_Digital SLR Camera 12.2 Mpixel' is: 'Digital SLR Camera 12.2 Mpixel'
+
+14-08-2024T08:31:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search/Page_Demo Web Shop. Search/a_Digital SLR Camera 12.2 Mpixel' is: 'Digital SLR Camera 12.2 Mpixel'
+
+14-08-2024T08:31:14 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+14-08-2024T08:31:14 - [TEST_STEP][PASSED] - if (text.contains("Camera")): Showing all Camera resultset 
+
+14-08-2024T08:31:14 - [TEST_STEP][PASSED] - log.logInfo("Showing all Camera resultset "): Showing all Camera resultset 
+
+14-08-2024T08:31:14 - [MESSAGE][INFO] - Showing all Camera resultset 
+
+14-08-2024T08:31:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-08-2024T08:31:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613474809.png]]
+
+14-08-2024T08:31:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-08-2024T08:31:15 - [MESSAGE][PASSED] - Browser is closed
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Homepage/TC004_Verify that all product categories are listed on Homepage" time="6.481" classname="Test Cases/Homepage/TC004_Verify that all product categories are listed on Homepage" status="PASSED">
+         <system-out><![CDATA[14-08-2024T08:31:15 - [TEST_CASE][PASSED] - Test Cases/Homepage/TC004_Verify that all product categories are listed on Homepage: Test Cases/Homepage/TC004_Verify that all product categories are listed on Homepage
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+14-08-2024T08:31:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-08-2024T08:31:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-08-2024T08:31:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-08-2024T08:31:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-08-2024T08:31:16 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:17 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-08-2024T08:31:18 - [MESSAGE][PASSED] - Current window maximized
+
+14-08-2024T08:31:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/Page_Demo Web Shop/div_Categories"), 0): Object 'Object Repository/Homepage/Page_Demo Web Shop/div_Categories' is present
+
+14-08-2024T08:31:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-08-2024T08:31:18 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Page_Demo Web Shop/div_Categories' is present
+
+14-08-2024T08:31:18 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+14-08-2024T08:31:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop/a_Books"), "Books"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop/a_Books' are matched.
+
+14-08-2024T08:31:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop/a_Books' are matched.
+
+14-08-2024T08:31:18 - [TEST_STEP][PASSED] - log.logInfo("Books Product Category is present"): Books Product Category is present
+
+14-08-2024T08:31:18 - [MESSAGE][INFO] - Books Product Category is present
+
+14-08-2024T08:31:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop. Books/a_Computers"), "Computers"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Books/a_Computers' are matched.
+
+14-08-2024T08:31:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Books/a_Computers' are matched.
+
+14-08-2024T08:31:19 - [TEST_STEP][PASSED] - log.logInfo("Computers Product Category is present"): Computers Product Category is present
+
+14-08-2024T08:31:19 - [MESSAGE][INFO] - Computers Product Category is present
+
+14-08-2024T08:31:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop. Computers/a_Electronics"), "Electronics"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Computers/a_Electronics' are matched.
+
+14-08-2024T08:31:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Computers/a_Electronics' are matched.
+
+14-08-2024T08:31:19 - [TEST_STEP][PASSED] - log.logInfo("Electronics Product Category is present"): Electronics Product Category is present
+
+14-08-2024T08:31:19 - [MESSAGE][INFO] - Electronics Product Category is present
+
+14-08-2024T08:31:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop. Electronics/a_Apparel  Shoes"), "Apparel & Shoes"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Electronics/a_Apparel  Shoes' are matched.
+
+14-08-2024T08:31:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Electronics/a_Apparel  Shoes' are matched.
+
+14-08-2024T08:31:20 - [TEST_STEP][PASSED] - log.logInfo("Apparel & Shoes Product Category is present"): Apparel & Shoes Product Category is present
+
+14-08-2024T08:31:20 - [MESSAGE][INFO] - Apparel & Shoes Product Category is present
+
+14-08-2024T08:31:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop. Apparel  Shoes/a_Digital downloads"), "Digital downloads"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Apparel  Shoes/a_Digital downloads' are matched.
+
+14-08-2024T08:31:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Apparel  Shoes/a_Digital downloads' are matched.
+
+14-08-2024T08:31:20 - [TEST_STEP][PASSED] - log.logInfo("Digital downloads Product Category is present"): Digital downloads Product Category is present
+
+14-08-2024T08:31:20 - [MESSAGE][INFO] - Digital downloads Product Category is present
+
+14-08-2024T08:31:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop. Digital downloads/a_Jewelry"), "Jewelry"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Digital downloads/a_Jewelry' are matched.
+
+14-08-2024T08:31:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Digital downloads/a_Jewelry' are matched.
+
+14-08-2024T08:31:20 - [TEST_STEP][PASSED] - log.logInfo("Jewelry Product Category is present"): Jewelry Product Category is present
+
+14-08-2024T08:31:20 - [MESSAGE][INFO] - Jewelry Product Category is present
+
+14-08-2024T08:31:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Homepage/Page_Demo Web Shop. Jewelry/a_Gift Cards"), "Gift Cards"): Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Jewelry/a_Gift Cards' are matched.
+
+14-08-2024T08:31:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/Page_Demo Web Shop. Jewelry/a_Gift Cards' are matched.
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - log.logInfo("Gift Cards Product Category is present"): Gift Cards Product Category is present
+
+14-08-2024T08:31:21 - [MESSAGE][INFO] - Gift Cards Product Category is present
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-08-2024T08:31:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613481312.png]]
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-08-2024T08:31:21 - [MESSAGE][PASSED] - Browser is closed
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/TC005_Verify that user is able to add a product to the shopping cart" time="12.423" classname="Test Cases/Shopping Cart/TC005_Verify that user is able to add a product to the shopping cart" status="PASSED">
+         <system-out><![CDATA[14-08-2024T08:31:21 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/TC005_Verify that user is able to add a product to the shopping cart: Test Cases/Shopping Cart/TC005_Verify that user is able to add a product to the shopping cart
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+14-08-2024T08:31:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-08-2024T08:31:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-08-2024T08:31:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-08-2024T08:31:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-08-2024T08:31:22 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:24 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-08-2024T08:31:24 - [MESSAGE][PASSED] - Current window maximized
+
+14-08-2024T08:31:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-08-2024T08:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-08-2024T08:31:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email"), userID): Text 'niteshtestautomation@abc.com' is set on object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-08-2024T08:31:26 - [MESSAGE][PASSED] - Text 'niteshtestautomation@abc.com' is set on object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-08-2024T08:31:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Password_Password"), "M2QPTmdpEDqAc7bqT3oqOA=="): Text ****** has been set on object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-08-2024T08:31:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-08-2024T08:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-08-2024T08:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-08-2024T08:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/Page_Demo Web Shop/a_Computers")): Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop/a_Computers' is clicked on
+
+14-08-2024T08:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop/a_Computers' is clicked on
+
+14-08-2024T08:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/Cart/Page_Demo Web Shop. Computers/div_Desktops")): Object: 'Object Repository/Shopping Cart/Cart/Page_Demo Web Shop. Computers/div_Desktops' is clicked on
+
+14-08-2024T08:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Cart/Page_Demo Web Shop. Computers/div_Desktops' is clicked on
+
+14-08-2024T08:31:29 - [TEST_STEP][PASSED] - scrollToPosition(0, 300): Browser is scrolled to position x = 0, y = 300
+
+14-08-2024T08:31:29 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 300
+
+14-08-2024T08:31:29 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/Product/AddToCart_btn")): Object: 'Object Repository/Shopping Cart/Product/AddToCart_btn' is clicked on
+
+14-08-2024T08:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Product/AddToCart_btn' is clicked on
+
+14-08-2024T08:31:30 - [TEST_STEP][PASSED] - scrollToPosition(0, 300): Browser is scrolled to position x = 0, y = 300
+
+14-08-2024T08:31:30 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 300
+
+14-08-2024T08:31:30 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/input_Qty_add-to-cart-button-72")): Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/input_Qty_add-to-cart-button-72' is clicked on
+
+14-08-2024T08:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/input_Qty_add-to-cart-button-72' is clicked on
+
+14-08-2024T08:31:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart"), 0): Object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart' is present
+
+14-08-2024T08:31:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-08-2024T08:31:33 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart' is present
+
+14-08-2024T08:31:33 - [TEST_STEP][PASSED] - message = getText(findTestObject("Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart")): Text of object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart' is: 'The product has been added to your shopping cart'
+
+14-08-2024T08:31:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Page_Demo Web Shop. Build your own cheap computer/p_The product has been added to your shopping cart' is: 'The product has been added to your shopping cart'
+
+14-08-2024T08:31:33 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+14-08-2024T08:31:33 - [TEST_STEP][PASSED] - log.logInfo(message): The product has been added to your shopping cart
+
+14-08-2024T08:31:33 - [MESSAGE][INFO] - The product has been added to your shopping cart
+
+14-08-2024T08:31:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-08-2024T08:31:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613493739.png]]
+
+14-08-2024T08:31:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-08-2024T08:31:34 - [MESSAGE][PASSED] - Browser is closed
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart" time="18.642" classname="Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart" status="PASSED">
+         <system-out><![CDATA[14-08-2024T08:31:34 - [TEST_CASE][PASSED] - Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart: Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+14-08-2024T08:31:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-08-2024T08:31:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-08-2024T08:31:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-08-2024T08:31:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-08-2024T08:31:35 - [TEST_STEP][PASSED] - navigateToUrl(appURL): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:39 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-08-2024T08:31:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-08-2024T08:31:39 - [MESSAGE][PASSED] - Current window maximized
+
+14-08-2024T08:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/Checkout/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-08-2024T08:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-08-2024T08:31:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Login/input_Email_Email"), userID): Text 'niteshtestautomation@abc.com' is set on object 'Object Repository/Checkout/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-08-2024T08:31:40 - [MESSAGE][PASSED] - Text 'niteshtestautomation@abc.com' is set on object 'Object Repository/Checkout/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-08-2024T08:31:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Login/input_Password_Password"), "M2QPTmdpEDqAc7bqT3oqOA=="): Text ****** has been set on object 'Object Repository/Checkout/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-08-2024T08:31:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Checkout/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-08-2024T08:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/Checkout/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-08-2024T08:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-08-2024T08:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop/span_Shopping cart")): Object: 'Object Repository/Checkout/Page_Demo Web Shop/span_Shopping cart' is clicked on
+
+14-08-2024T08:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop/span_Shopping cart' is clicked on
+
+14-08-2024T08:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_Remove_removefromcart")): Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_Remove_removefromcart' is clicked on
+
+14-08-2024T08:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_Remove_removefromcart' is clicked on
+
+14-08-2024T08:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0")): Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-08-2024T08:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-08-2024T08:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/button_Checkout")): Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-08-2024T08:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-08-2024T08:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn")): Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn' is clicked on
+
+14-08-2024T08:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn' is clicked on
+
+14-08-2024T08:31:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn"), 2): Object 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn' is clickable
+
+14-08-2024T08:31:46 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Page_Demo Web Shop. Shopping Cart/Continue_btn' is clickable
+
+14-08-2024T08:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Pickup/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore")): Object: 'Object Repository/Checkout/Pickup/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-08-2024T08:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Pickup/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-08-2024T08:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button")): Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-08-2024T08:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-08-2024T08:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button")): Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-08-2024T08:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-08-2024T08:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button")): Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-08-2024T08:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-08-2024T08:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button")): Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-08-2024T08:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-08-2024T08:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Checkout/div_Your order has been successfully processed")): Object: 'Object Repository/Checkout/Page_Demo Web Shop. Checkout/div_Your order has been successfully processed' is clicked on
+
+14-08-2024T08:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Demo Web Shop. Checkout/div_Your order has been successfully processed' is clicked on
+
+14-08-2024T08:31:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Checkout/Page_Demo Web Shop. Checkout/strong_Your order has been successfully processed"), 0): Object 'Object Repository/Checkout/Page_Demo Web Shop. Checkout/strong_Your order has been successfully processed' is present
+
+14-08-2024T08:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-08-2024T08:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Page_Demo Web Shop. Checkout/strong_Your order has been successfully processed' is present
+
+14-08-2024T08:31:51 - [TEST_STEP][PASSED] - orderNum = getText(findTestObject("Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/OrderNumber_text")): Text of object 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/OrderNumber_text' is: 'Order number: 1771422'
+
+14-08-2024T08:31:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout/ContinueBtn/Page_Demo Web Shop. Checkout/OrderNumber_text' is: 'Order number: 1771422'
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - log.logInfo(orderNum): Order number: 1771422
+
+14-08-2024T08:31:52 - [MESSAGE][INFO] - Order number: 1771422
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+14-08-2024T08:31:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USER\\git\\WebShop-TDD-WebAutomation-Katalon-Project\\Reports\\20240814_083039\\Smoke Suite\\Demo WebShop SmokeSuite Execution\\20240814_083039\\1723613512388.png]]
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-08-2024T08:31:52 - [MESSAGE][PASSED] - Browser is closed
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+14-08-2024T08:31:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-08-2024T08:30:45 - [TEST_SUITE][PASSED] - Demo WebShop SmokeSuite Execution: Test Cases/Product Checkout/TC006_Verify that user can complete the checkout process starting from the cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -23,26 +23,26 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
 class NewTestListener {
-	/**
-	 * Executes before every test case starts.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@BeforeTestCase
-	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
+	
+@BeforeTestSuite
+def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+    CustomKeywords.'com.katalon.extent.report.ExtentReport.deleteFolderContents'()
+    CustomKeywords.'com.katalon.extent.report.ExtentReport.attachEReport'(testSuiteContext, "Extent Report", "KS QA Test Report")
+}
 
-	}
+@BeforeTestCase
+def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+    CustomKeywords.'com.katalon.extent.report.ExtentReport.startEReport'(testCaseContext)
+}
 
-	/**
-	 * Executes after every test case ends.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
-		
-		//WebUI.closeBrowser()
-	}
+@AfterTestCase
+def sampleAfterTestCase(TestCaseContext testCaseContext) throws IOException {
+    CustomKeywords.'com.katalon.extent.report.ExtentReport.takeScreenshotFailure'(testCaseContext)
+}
+
+@AfterTestSuite
+def sampleAfterTestSuite() {
+    CustomKeywords.'com.katalon.extent.report.ExtentReport.flushEReport'()
+}
+
 }
